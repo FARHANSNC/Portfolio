@@ -102,3 +102,8 @@ footer {
 .dark-mode .project-card {
   background: #1e1e1e;
 }
+
+/* Dark Mode h2 */
+.dark-mode h2 {
+  color: #ff4d4d; /* Vibrant Red */
+}
