@@ -103,6 +103,12 @@ footer {
   background: #1e1e1e;
 }
 
+/* Smooth transition for theme changes */
+body, header, footer, section, .project-card, h2 {
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+
 /* Dark Mode h2 */
 .dark-mode h2 {
   color: #ff4d4d; /* Vibrant Red */
