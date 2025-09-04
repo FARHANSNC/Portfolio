@@ -1,0 +1,104 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: #0077b6;
+  color: white;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header nav {
+  margin: 20px 0;
+}
+
+header nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+#toggle-theme {
+  margin-top: 15px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: white;
+  color: #0077b6;
+  font-weight: bold;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #0077b6;
+}
+
+.project-card {
+  background: white;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0077b6;
+  color: white;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #121212;
+  color: #f9f9f9;
+}
+
+.dark-mode header {
+  background: #222;
+}
+
+.dark-mode #toggle-theme {
+  background: #333;
+  color: white;
+}
+
+.dark-mode .project-card {
+  background: #1e1e1e;
+}
