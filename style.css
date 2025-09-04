@@ -107,3 +107,9 @@ footer {
 .dark-mode h2 {
   color: #ff4d4d; /* Vibrant Red */
 }
+
+/* Dark Mode overrides */
+.dark-mode footer {
+  background: #ff4d4d; /* Vibrant Red */
+  color: white;
+}
