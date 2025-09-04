@@ -4,117 +4,69 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Farhan's Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f9f9f9;
-      color: #333;
-    }
-    header {
-      background: #222;
-      color: #fff;
-      padding: 1.5rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-    nav {
-      margin-top: 0.5rem;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 10px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 1.5rem;
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    section h2 {
-      margin-bottom: 1rem;
-      color: #444;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    ul li {
-      margin-bottom: 0.5rem;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #222;
-      color: #fff;
-      margin-top: 2rem;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Header -->
   <header>
     <h1>Farhan Ahmad</h1>
-    <p>BCA Student | Aspiring Software Developer</p>
+    <p>Aspiring Developer | Tech Enthusiast | Lifelong Learner</p>
     <nav>
       <a href="#about">About</a>
-      <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
-      <a href="#education">Education</a>
       <a href="#contact">Contact</a>
     </nav>
+    <button id="toggle-theme">🌙 Dark Mode</button>
   </header>
 
+  <!-- About Section -->
   <section id="about">
     <h2>About Me</h2>
-    <p>I am a Bachelor of Computer Applications (BCA) student at Shibli National College, Azamgarh, passionate about programming, databases, and creating impactful solutions through technology.</p>
+    <p>
+      I am a BCA student passionate about coding, design, and technology.  
+      Skilled in HTML, CSS, JavaScript, Java, and databases.  
+      Always learning and building new things 🚀.
+    </p>
   </section>
 
+  <!-- Skills Section -->
   <section id="skills">
     <h2>Skills</h2>
-    <ul>
-      <li>Java, C++, MySQL</li>
-      <li>HTML, CSS</li>
-      <li>Microsoft Office (Word, Excel, PowerPoint, Access)</li>
-      <li>Adobe Photoshop, Lightroom, PageMaker, CorelDRAW</li>
-      <li>Tally ERP9/Prime</li>
-    </ul>
+      <ul>
+         <li>Java, C++, MySQL</li>
+         <li>HTML, CSS</li>
+         <li>Microsoft Office (Word, Excel, PowerPoint, Access)</li>
+         <li>Adobe Photoshop, Lightroom, PageMaker, CorelDRAW</li>
+         <li>Tally ERP9/Prime</li>
+      </ul>
   </section>
 
+  <!-- Projects Section -->
   <section id="projects">
     <h2>Projects</h2>
-    <ul>
-      <li><b>Student Database Management System</b> – Java + MySQL CRUD operations.</li>
-      <li><b>Personal Portfolio Website</b> – Built with HTML.</li>
-      <li><b>Billing & Inventory Tracker</b> – Automated Excel sheets with Tally integration.</li>
-    </ul>
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>This very website — built with HTML, CSS, and JavaScript.</p>
+    </div>
+    <div class="project-card">
+      <h3>Billing System</h3>
+      <p>A desktop app for billing and invoicing built during my work at RK Traders.</p>
+    </div>
   </section>
 
-  <section id="education">
-    <h2>Education</h2>
-    <ul>
-      <li><b>BCA</b>, Shibli National College, Azamgarh (2023–2026)</li>
-      <li><b>Intermediate (PCM)</b>, Shibli National College – 75%</li>
-      <li><b>High School</b>, Shibli National College – 66%</li>
-    </ul>
-  </section>
-
+  <!-- Contact Section -->
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="12azmifarhan786@gmail.com">12azmifarhan786@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/farhan-ahmad-616a02343" target="_blank">linkedin.com/in/farhan-ahmad</a></p>
-    <p>GitHub: <a href="https://github.com/" target="_blank">github.com/FARHANSNC</a></p>
+    <p>Email: <a href="mailto:farhan@example.com">12azmifarhan786@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/FARHANSNC" target="_blank">github.com/FARHANSNC</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/farhan-ahmad" target="_blank">linkedin.com/in/farhan-ahmad</a></p>
   </section>
 
   <footer>
-    <p>© 2025 Farhan Ahmad. All Rights Reserved.</p>
+    <p>© 2025 Farhan Ahmad | Built with ❤️</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
+
